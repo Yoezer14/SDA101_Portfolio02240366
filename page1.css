@@ -1,0 +1,50 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #2c2c2c;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .circle img {
+    width: 100%;
+  }
+  
+  .text h1, .text h2, .text h3 {
+    margin: 10px 0;
+  }
+  
+  .text h1 {
+    color: yellow;
+  }
+  
+  .text h2 {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .text h3 {
+    color: #f1c40f;
+  }
+  
+
+  
